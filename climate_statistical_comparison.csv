@@ -1,0 +1,11 @@
+Model A,Model B,Shapiro p (normality of diff),Paired t-test p-value,"Significant (t-test, α=0.05)",Wilcoxon p-value,"Significant (Wilcoxon, α=0.05)",Recommended test
+Holt-Winters,ARIMA,0.4748,0.7495,False,0.7357,False,t-test
+Holt-Winters,XGBoost,0.1054,0.0016,True,0.0004,True,t-test
+Holt-Winters,LSTM,0.1576,0.0,True,0.0,True,t-test
+Holt-Winters,Transformer,0.2451,0.0,True,0.0,True,t-test
+ARIMA,XGBoost,0.5392,0.0003,True,0.0002,True,t-test
+ARIMA,LSTM,0.0508,0.0,True,0.0,True,t-test
+ARIMA,Transformer,0.1558,0.0,True,0.0,True,t-test
+XGBoost,LSTM,0.2408,0.0,True,0.0,True,t-test
+XGBoost,Transformer,0.1522,0.0,True,0.0,True,t-test
+LSTM,Transformer,0.0001,0.0001,True,0.0003,True,Wilcoxon
